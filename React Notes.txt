@@ -1,0 +1,113 @@
+
+######-: React Installation :- ########
+
+a. npm install -g create-react-app
+b. create-react-app-version 
+->remove powershell file from appData
+c. create-react-app <Project name>
+
+######-: Taiilwind Installation :- ######
+
+npm install tailwindcss
+npx tailwindcss init
+
+tailwind.config.js
+
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#####-: React Form :- ###### 
+
+React-hook-Form:-
+
+npm install react-hook-form @hookform/resolvers yup
+
+React-Redux
+
+npm install @reduxjs/toolkit react-redux
+https://redux-toolkit.js.org/tutorials/quick-start
+
+
+Admin Panel :-
+git clone -b react-admin https://github.com/safak/youtube.git .
+
+Important links
+
+fetch:-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+await/async=https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await
+
+Naik@07726
+
+6da2509c188c24b5cfdc4ff3d3ba4258
+
+http://api.weatherstack.com/current?access_key=6da2509c188c24b5cfdc4ff3d3ba4258&query=mumbai
+
+${city}
+${process.env.API_KEY}
+http://api.weatherstack.com/current?access_key=${process.env.API_KEY}&query=${city}
+
+API_KEY = 8b946c7b5360f91a7fabd850b83ecf09
+https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}
+
+
+http://api.openweathermap.org/geo/1.0/reverse?lat=18.4593084&lon=73.8597719&limit=5&appid=8b946c7b5360f91a7fabd850b83ecf09
+
+register UI frontend
+https://mdbootstrap.com/docs/standard/extended/registration/
+
+GitHub add new project Steps:-
+
+git init
+git status
+git add .
+git commit -m "initial commit"
+##remote origin already exist
+git remote rm origin
+$ git remote set-url origin git@github.com:ppreyer/first_app.git
+put remote location 
+git push or git push --set-upstream origin main
+
+
+GitHub update old project Steps:-
+
+git init
+git status
+git add .
+git commit -m"second commit"
+git push  -u origin master
+
+
+
+
+paysquare 
+id 1234-278
+pass Vast_123
+
+CET LOGIN-PASSWORD
+userId=224029814
+Pass=Naik@07726
+
+Mongodb joi validation express
+https://dev.to/swarnimwalavalkar/build-a-mongodb-crud-api-with-nodejs-36c4 
+
+
+react-mini setup
+https://github.com/safak/youtube/tree/react-mini
+https://github.com/safak/youtube.git
+git clone --single-branch -b react-mini https://github.com/safak/youtube.git .
+
+https://www.gamesradar.com/how-to-watch-marvel-movies-in-order-mcu/
+http://www.1337x.tw/
+kproxy.com
