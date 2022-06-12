@@ -37,10 +37,32 @@ https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-a
 
 React-Router-dom
 https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
-React-Redux
 
+
+React-Redux
 npm install @reduxjs/toolkit react-redux
 https://redux-toolkit.js.org/tutorials/quick-start
+
+Steps for zustend :-
+Install:-
+npm i zustend
+npm i axios
+1.create http_common.js File
+
+import axios from "axios";
+export default axios.create({
+  baseURL: "http://localhost:3030/",
+  headers: {
+    "Content-type": "application/json",
+  },
+});
+
+2.create Store javascript file -
+import create from "zustand"
+
+
+
+
 
 
 Admin Panel :-
