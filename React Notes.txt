@@ -32,7 +32,11 @@ index.css
 React-hook-Form:-
 
 npm install react-hook-form @hookform/resolvers yup
+https://dev.to/franciscomendes10866/react-form-validation-with-react-hook-form-and-yup-4a98
 
+
+React-Router-dom
+https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 React-Redux
 
 npm install @reduxjs/toolkit react-redux
